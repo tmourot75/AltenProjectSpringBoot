@@ -11,6 +11,7 @@ public class AltenProjectSpringBootApplication {
         SpringApplication.run(AltenProjectSpringBootApplication.class, args);
         System.out.println("AltenProjectSpringBootApplication started");
         Product product = new Product();
+        product.setId(1);
         System.out.println("Product: " + product);
     }
 
